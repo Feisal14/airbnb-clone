@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@700;900&family=Signika+Negative:wght@500&display=swap');
+
+
+* {
+   box-sizing: border-box;
+   font-family: 'Itim', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+   margin: 0;
+}
+
+.nav-bar {
+   margin-left: 3rem;
+   margin-top: 2rem;
+   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.photo-grid {
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+}
+
+h1 {
+   font-size: 90px;
+}
+
+p{
+   font-size:40px;
+}
+.content {
+   margin-left: 50px;
+
+}

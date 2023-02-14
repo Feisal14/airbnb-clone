@@ -13,25 +13,92 @@ body {
 }
 
 .nav-bar {
-   margin-left: 3rem;
-   margin-top: 2rem;
+   height: 80px;
+   display: flex;
+   padding: 20px 36px;
    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .photo-grid {
+   align-self: center;
+}
+
+.grey {
+   color: #918E9B
+}
+
+.about--sec{
+   padding: 20px;
    display: flex;
-   justify-content: center;
-   padding-top: 40px;
+   flex-direction: column;
+}
+
+.photo{
+   max-width: 600px;
+   align-self: center;
+}
+
+section {
+   padding: 20px;
 }
 
 h1 {
-   font-size: 90px;
+   font-size: 50px;
 }
 
-p{
-   font-size:40px;
+p {
+   font-size: 30px;
 }
+
 .content {
    margin-left: 50px;
 
+}
+
+.cards--list {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 20px;
+   overflow-x: auto;
+}
+
+.card {
+   width: 175px;
+   font-size: 12px;
+   flex: 0 0 auto;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.card--image {
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 9px;
+
+}
+
+.card--stats {
+   display: flex;
+   align-items: center;
+}
+
+.card--star {
+   height: 13px;
+}
+
+.card--par {
+   font-size: 10px;
+}
+
+.card--badge {
+   position: absolute;
+   top: 6px;
+   left: 6px;
+   background-color: white;
+   padding: 5px 7px;
+   border-radius: 2px;
+   font-weight: bold;
 }
